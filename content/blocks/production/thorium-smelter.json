@@ -10,19 +10,17 @@
   "craftTime": 90
   "consumes":{
     "power": 5
-    "items":{
-      "item":[
-        "thorium/3"
-  ]}}
+    "items":[
+      "thorium/3"
+    ]
+  }
   "outputLiquid": "liquid-thorium/10"
-  "requirements":{
-    "items":{
-      "item":[
-        "copper/42"
-        "lead/26"
-        "silicon/30"
-        "titanium/56"
-  ]}}
+  "requirements":[
+    "copper/42"
+    "lead/26"
+    "silicon/30"
+    "titanium/56"
+  ]
   "Category": "crafting"
   "research": "cryofluid-mixer"
   "drawer":{
@@ -43,5 +41,6 @@
         "type": "DrawGlowRegion"
         "suffix": "-heat"
       }
-  ]}
+    ]
+  }
 }
