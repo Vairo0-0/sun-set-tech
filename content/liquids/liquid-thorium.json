@@ -4,4 +4,6 @@
     "isLiquid": true,
     "cache": "water",
     "color": "cb8ebf"
+    "temperature": 2.5
+    "viscosity": 0.5
 }
