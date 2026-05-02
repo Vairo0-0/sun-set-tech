@@ -13,7 +13,7 @@
       "thorium/3"
     ]
   }
-  "outputLiquid": "liquid-thorium/10"
+  "outputLiquid": "liquid-thorium/0.1"
   "requirements":[
     "copper/42"
     "lead/26"
@@ -32,7 +32,7 @@
       }
       {
         "type": "DrawLiquidTile"
-        "drawLiquid": "slag"
+        "drawLiquid": "liquid-thorium"
       }
       {
         "type": "DrawDefault"
