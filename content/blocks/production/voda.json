@@ -25,4 +25,18 @@
   ]}}
   "Category": "crafting"
   "research": "cryofluid-mixer"
+  "drawer":{
+    "drawers":[
+      {
+        "type": "DrawRegion"
+        "suffix": "-bottom"
+      }
+      {
+        "type": "DrawLiquidTile"
+        "drawLiquid": "water"
+      }
+      {
+        "type": "DrawDefault"
+      }
+  ]}
 }
