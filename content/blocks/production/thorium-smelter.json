@@ -1,14 +1,15 @@
 {
   "name": "thorium smelter"
-  "description": ")_)"
+  "description": "the structure melts thorium using a titanium heater"
   "size": 2
   "hasPower": true
   "hasItems": true
   "solid": true
   "liquidCapacity": 36
-  "craftTime": 90
+  "itemCapacity": 15
+  "craftTime": 60
   "consumes":{
-    "power": 5
+    "power": 4
     "items":[
       "thorium/3"
     ]
