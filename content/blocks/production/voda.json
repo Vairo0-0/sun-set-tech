@@ -1,0 +1,28 @@
+{
+  "name": "thorium smelter"
+  "description": ")_)"
+  "size": 2
+  "hasPower": true
+  "hasItems": true
+  "solid": true
+  "outputsLiquid": true
+  "liquidCapacity": 36
+  "craftTime": 90
+  "consumes":{
+    "power": 5
+    "items":{
+      "item":[
+        "thorium/3"
+  ]}}
+  "outputLiquid": "liquid-thorium/10"
+  "requirements":{
+    "items":{
+      "item":[
+        "copper/42"
+        "lead/26"
+        "silicon/30"
+        "titanium/56"
+  ]}}
+  "Category": "crafting"
+  "research": "cryofluid-mixer"
+}
