@@ -1,6 +1,4 @@
 {
-    "name": "Liquid Thorium",
-    "description": "Molten thorium. Very hot",
     "isLiquid": true,
     "color": "cb8ebf"
     "temperature": 2.5
