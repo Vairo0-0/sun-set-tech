@@ -20,7 +20,7 @@
     "silicon/30"
     "titanium/56"
   ]
-  "Category": "crafting"
+  "category": "crafting"
   "type": "GenericCrafter"
   "research": "cryofluid-mixer"
   "drawer":{
