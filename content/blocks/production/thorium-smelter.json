@@ -5,7 +5,6 @@
   "hasPower": true
   "hasItems": true
   "solid": true
-  "outputsLiquid": true
   "liquidCapacity": 36
   "craftTime": 90
   "consumes":{
@@ -22,6 +21,7 @@
     "titanium/56"
   ]
   "Category": "crafting"
+  "type": "GenericCrafter"
   "research": "cryofluid-mixer"
   "drawer":{
     "type": "DrawMulti"
@@ -32,7 +32,7 @@
       }
       {
         "type": "DrawLiquidTile"
-        "drawLiquid": "water"
+        "drawLiquid": "slag"
       }
       {
         "type": "DrawDefault"
