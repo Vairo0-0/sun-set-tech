@@ -26,6 +26,7 @@
   "Category": "crafting"
   "research": "cryofluid-mixer"
   "drawer":{
+    "type": "DrawMulti"
     "drawers":[
       {
         "type": "DrawRegion"
@@ -37,6 +38,10 @@
       }
       {
         "type": "DrawDefault"
+      }
+      {
+        "type": "DrawGlowRegion"
+        "suffix": "-heat"
       }
   ]}
 }
