@@ -1,7 +1,7 @@
 {
-    "localizadName": "Liquid Thorium",
+    "name": "Liquid Thorium",
     "description": "Liquid hot thorium",
     "isLiquid": true,
     "cache": "water",
-    "color": "8B26C9"
+    "color": "cb8ebf"
 }
