@@ -1,6 +1,4 @@
 {
-  "name": "thorium smelter"
-  "description": "the structure melts thorium using a titanium heater"
   "size": 2
   "hasPower": true
   "hasItems": true
