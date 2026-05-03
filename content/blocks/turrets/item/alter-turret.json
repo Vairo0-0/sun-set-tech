@@ -63,7 +63,6 @@
                     "colorTo": "B8705C"
                 }  
             ],
-            "despawnEffect": "Fx.titanSmoke"
         },
         "lead": {
             "type": "BasicBulletType",
@@ -99,7 +98,6 @@
                     "colorTo": "4D4D4D"
                 }  
             ],
-            "despawnEffect": "Fx.titanSmoke"
         },
     },
     "requirements": [
