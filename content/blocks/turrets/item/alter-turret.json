@@ -63,7 +63,7 @@
             },
         },
     },
-    "requirements": [,
+    "requirements": [
         "lead/30",
         "copper/10"
     ],
