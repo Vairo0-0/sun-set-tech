@@ -1,6 +1,4 @@
 {
-    /* настройки блока */
-    
     "type": "ItemTurret",
     "squareSprite": true,
     "size": 1,
@@ -15,6 +13,7 @@
     "inaccuracy": 2
     "shootSound": "shootDuo",
     "researchCostMultiplier": 0.05,
+
     
     "drawer": {
         "type": "drawTurret",
@@ -29,7 +28,11 @@
             }
         ]
     },
+
+    
     "ammoTypes": {
+
+        
         "scrap": {
             "type": "BasicBulletType",
             "speed": 2.6
@@ -52,6 +55,7 @@
                     "colorTo": "B8705C"
                 }
             ],
+            
             "hitEffect": [
                 {
                     "type": "LineEffect"
@@ -65,6 +69,7 @@
                     "colorTo": "B8705C"
                 }  
             ],
+            
             "despawnEffect": [
                 {
                     "type": "ParticleEffect"
@@ -78,6 +83,8 @@
                 }
             ]
         },
+
+        
         "lead": {
             "type": "BasicBulletType",
             "speed": 2.5
@@ -99,6 +106,7 @@
                     "colorTo": "4D4D4D"
                 }
             ],
+            
             "hitEffect": [
                 {
                     "type": "LineEffect"
@@ -112,6 +120,7 @@
                     "colorTo": "4D4D4D"
                 }  
             ],
+            
             "despawnEffect": [
                 {
                     "type": "ParticleEffect"
@@ -126,10 +135,13 @@
             ]
         },
     },
+
+    
     "requirements": [
         "lead/30",
         "copper/10"
     ],
+    
     "envRequired": 0,
     "enDisabled": 4,
     "category": "turret",
