@@ -46,24 +46,29 @@
                 {
                     "type:": "ParticleEffect"
                     "line": true
-                    "lenFrom": 10
+                    "lenFrom": 5
                     "lenTo": 0
-                    "strokeFrom": 3
+                    "strokeFrom": 1.5
                     "strokeTo": 0
                     "cone": 30
-                    "color": "B8705C"
+                    "livetime": 20
+                    "colorFrom": "B8705C"
+                    "colorTo": "B8705C"
                 }
             ],
             
             "hitEffect": [
                 {
-                     "type": "LineEffect",
-                     "length": 50,
-                     "lifetime": 30,
-                     "color": "D99F6B",
-                     "width": 2,
-                     "strokeFrom": 3,
-                     "strokeTo": 0
+                    "type:": "ParticleEffect"
+                    "line": true
+                    "lenFrom": 5
+                    "lenTo": 0
+                    "strokeFrom": 1.5
+                    "strokeTo": 0
+                    "cone": -50
+                    "livetime": 20
+                    "colorFrom": "B8705C"
+                    "colorTo": "B8705C"
                 }
             ],
             
