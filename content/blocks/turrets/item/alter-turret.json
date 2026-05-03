@@ -21,7 +21,7 @@
             {
                 "type": "RegionPart"
                 "suffix": "-mid"
-                "under": false
+                "under": true
                 "mirror": false
                 "moveY": -1.2
                 "progress": "recoil"
