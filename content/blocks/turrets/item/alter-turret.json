@@ -1,5 +1,5 @@
 {
-    ## настройки блока
+    /* настройки блока */
     
     "type": "ItemTurret",
     "squareSprite": true,
