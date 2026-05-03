@@ -41,8 +41,10 @@
             "ammoMultiplier": 2
             "ammoUseEffect": "Fx.casing1",
             "reloadMultiplier": 0.8
-            "region": "
-            "frontColor": "Pal.scrapAmmoFront"
+            "frontColor": "B8705C"
+            "hitColor": "B8705C"
+            "backColor": "B8705C"
+            "trailColor": "B8705C"
             
             "shootEffect": [
                 {
@@ -95,8 +97,11 @@
             "damage": 18,
             "lifetime": 60,
             "ammoMultiplier": 1
-            "ammoUseEffect": "Fx.casing1",
-            "frontColor": "Pal.leadAmmoFront"
+            "ammoUseEffect": "Fx.casing2",
+            "frontColor": "ab99d3"
+            "hitColor": "ab99d3"
+            "backColor": "ab99d3"
+            "trailColor": "ab99d3"
             
             "shootEffect": [
                 {
