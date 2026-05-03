@@ -1,0 +1,30 @@
+{
+  "type": "PowerTurret",
+  "size": 3,
+  "health": 500,
+  "range": 500,
+  "reload": 60,
+  "rotateSpeed": 5,
+  "powerUse": 10,  // Высокое потребление энергии
+  "status": "burning",
+  "statusDuration": 60,
+  "color": "FF5E5E",
+  "beamEffect": "Fx.lancerLaser",
+  "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 10,
+    "lifetime": 40,
+    "colorFrom": "FF5E5E",
+    "colorTo": "FF0000",
+    "sizeFrom": 4,
+    "sizeTo": 1
+  },
+  "requirements": [
+    "silicon/50",
+    "plastanium/30",
+    "surge-alloy/20",
+    "phase-fabric/10"
+  ],
+  "research": "force-projector",
+  "researchCostMultiplier": 1.5
+}
