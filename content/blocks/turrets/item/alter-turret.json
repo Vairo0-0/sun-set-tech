@@ -1,4 +1,6 @@
 {
+    ## настройки блока
+    
     "type": "ItemTurret",
     "squareSprite": true,
     "size": 1,
