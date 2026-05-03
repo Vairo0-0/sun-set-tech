@@ -28,6 +28,43 @@
         ]
     },
     "ammoTypes": {
+        "scrap": {
+            "type": "BasicBulletType",
+            "speed": 2.6
+            "damage": 10,
+            "lifetime": 60,
+            "ammoMultiplier": 2
+            "ammoUseEffect": "Fx.casing1",
+            "reloadMultiplier": 0.8
+            
+            "shootEffect": [
+                {
+                    "type": "LineEffect"
+                    "particles": 6
+                    "length": 10
+                    "sizeFrom": 10
+                    "sizeTo": 0
+                    "lifetime": 25
+                    "cone": 30
+                    "colorFrom": "B8705C"
+                    "colorTo": "B8705C"
+                }
+            ],
+            "hitEffect": [
+                {
+                    "type": "LineEffect"
+                    "particles": 6
+                    "length": 10
+                    "sizeFrom": 10
+                    "sizeTo": 0
+                    "lifetime": 25
+                    "cone": -50
+                    "colorFrom": "B8705C"
+                    "colorTo": "B8705C"
+                }  
+            ],
+            "despawnEffect": "Fx.titanSmoke"
+        },
         "lead": {
             "type": "BasicBulletType",
             "speed": 2.5
