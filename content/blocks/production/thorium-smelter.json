@@ -20,7 +20,7 @@
     "titanium/56"
   ],
   "category": "crafting",
-  "type": "GenericCrafter,
+  "type": "GenericCrafter",
   "research": "cryofluid-mixer",
   "drawer":{
     "type": "DrawMulti",
