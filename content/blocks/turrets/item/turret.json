@@ -3,17 +3,18 @@
     "squareSprite": true,
     "outlinecollor": "5617AD",
     "size": 1,
-    "health": 300,
-    "reload": 35,
-    "range": 25,
+    "health": 250,
+    "reload": 10,
+    "range": 160,
     "maxAmmo": 20,
-    "recoil": 3,
-    "rotateSpeed": 2,
-    "shootSound": "bang",
+    "recoil": 0.5,
+    "rotateSpeed": 10,
+    "shootSound": "Sounds.shootDuo",
     "drawer": {
         "type": "drawTurret",
         "basePrefix": "base"
     },
+    "researchCostMultiplier": 0.05,
     "ammoTypes": {
         "lead": {
             "type": "MissileBulletType",
@@ -29,14 +30,15 @@
                 "sizeTo": 2,
             },
             "speed": 10,
+            "damage": 18,
             "collides": true,
             "lifetime": 38,
             "shrinkY": 0,
             "shrinkX": 0,
             "hitEffect": {
                 "type": "ParticleEffect",
-                "particles": 5,
-                "length": 45,
+                "particles": 2,
+                "length": 15,
                 "lifetime": 70,
                 "interp": "pow3Out",
                 "sizeInterp": "pow5In",
@@ -44,9 +46,10 @@
                 "lightColor": "A9D8FFFF",
                 "colorFrom": "A9D8FFFF",
                 "colorTo": "66B1FFFF",
-                "sizeFrom": 5,
+                "sizeFrom": 2,
                 "sizeTo": 0
             },
+            "ammoUseEffect":
         },
 
     },
