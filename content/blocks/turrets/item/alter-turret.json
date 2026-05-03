@@ -34,6 +34,7 @@
             "speed": 2.5
             "damage": 18,
             "lifetime": 60,
+            "ammoMultiplier": 1
             "ammoUseEffect": "Fx.casing1",
             
             "shootEffect": {
