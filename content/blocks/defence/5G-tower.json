@@ -5,7 +5,7 @@
   "range": 500,
   "reload": 60,
   "rotateSpeed": 5,
-  "shootType": "laserBulletType",
+  "shootType": "LaserBulletType",
   "powerUse": 10,  // Высокое потребление энергии
   "status": "burning",
   "statusDuration": 60,
