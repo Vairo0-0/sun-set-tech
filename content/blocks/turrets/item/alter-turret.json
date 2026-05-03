@@ -45,9 +45,9 @@
             "shootEffect": [
                 {
                      "type": "LineEffect",
-                     "length": 20,
+                     "length": 50,
                      "lifetime": 30,
-                     "color": "FF5722",
+                     "color": "D99F6B",
                      "width": 2,
                      "strokeFrom": 3,
                      "strokeTo": 0
@@ -57,9 +57,9 @@
             "hitEffect": [
                 {
                      "type": "LineEffect",
-                     "length": 20,
+                     "length": 50,
                      "lifetime": 30,
-                     "color": "FF5722",
+                     "color": "D99F6B",
                      "width": 2,
                      "strokeFrom": 3,
                      "strokeTo": 0
@@ -72,7 +72,7 @@
                     "particles": 12
                     "sizeFrom": 5
                     "sizeTo": 0
-                    "livetime": 6
+                    "livetime": 3
                     "cone": 360
                     "colorFrom": "4a4a4a"
                     "colorTo": "4a4a4a"
