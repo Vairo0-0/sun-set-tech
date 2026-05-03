@@ -44,7 +44,8 @@
             
             "shootEffect": [
                 {
-                    "type": "LineEffect"
+                    "type": "ParticEffect"
+                    "region": "laser-white"
                     "particles": 6
                     "length": 10
                     "width": 3
@@ -59,7 +60,8 @@
             
             "hitEffect": [
                 {
-                    "type": "LineEffect"
+                    "type": "ParticEffect"
+                    "region": "laser-white"
                     "particles": 6
                     "length": 10
                     "width": 3
@@ -97,7 +99,8 @@
             
             "shootEffect": [
                 {
-                    "type": "LineEffect"
+                    "type": "ParticEffect"
+                    "region": "laser-white"
                     "particles": 6
                     "length": 10
                     "width": 3
@@ -112,7 +115,8 @@
             
             "hitEffect": [
                 {
-                    "type": "LineEffect"
+                    "type": "ParticEffect"
+                    "region": "laser-white"
                     "particles": 6
                     "length": 10
                     "width": 3
