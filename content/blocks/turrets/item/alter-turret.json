@@ -44,13 +44,12 @@
             
             "shootEffect": [
                 {
-                     "type": "LineEffect",
-                     "length": 50,
+                     "type": "ParticleEffect",
+                     "ышяу": 10,
                      "lifetime": 30,
-                     "color": "D99F6B",
+                     "color": "B8705C",
                      "width": 2,
-                     "strokeFrom": 3,
-                     "strokeTo": 0
+                     "stroke": 3,
                 }
             ],
             
