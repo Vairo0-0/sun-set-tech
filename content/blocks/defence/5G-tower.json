@@ -6,7 +6,7 @@
   "reload": 60,
   "rotateSpeed": 5,
   "shootType": "LaserBulletType",
-  "powerUse": 10,  // Высокое потребление энергии
+  "powerUse": 10,
   "status": "burning",
   "statusDuration": 60,
   "color": "FF5E5E",
