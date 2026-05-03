@@ -63,6 +63,18 @@
                     "colorTo": "B8705C"
                 }  
             ],
+            "despawnEffect": [
+                {
+                    "type": "ParticleEffect"
+                    "particles": 12
+                    "sizeFrom": 30
+                    "sizeTo": 0
+                    "livetime": 40
+                    "cone": 360
+                    "colorFrom": "4a4a4a"
+                    "colorTo": "4a4a4a"
+                }
+            ]
         },
         "lead": {
             "type": "BasicBulletType",
@@ -98,6 +110,18 @@
                     "colorTo": "4D4D4D"
                 }  
             ],
+            "despawnEffect": [
+                {
+                    "type": "ParticleEffect"
+                    "particles": 12
+                    "sizeFrom": 30
+                    "sizeTo": 0
+                    "livetime": 40
+                    "cone": 360
+                    "colorFrom": "4a4a4a"
+                    "colorTo": "4a4a4a"
+                }
+            ]
         },
     },
     "requirements": [
