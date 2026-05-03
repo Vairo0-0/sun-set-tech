@@ -1,59 +1,30 @@
 {
-  "type": "UnitType",
-  "category": "effect",
-  "size": 2,
-  "health": 300,
-  "range": 120,
-  "cooldown": 60,
-  "effectChance": 0.8,
-  "statusEffects": [
-    {
-      "status": "burning",
-      "duration": 120,
-      "chance": 0.3
-    },
-    {
-      "status": "slow",
-      "duration": 90,
-      "chance": 0.4
-    },
-    {
-      "status": "weakened",
-      "duration": 60,
-      "chance": 0.2
-    }
-  ],
+  "type": "PowerTurret",
+  "size": 3,
+  "health": 500,
+  "range": 500,
+  "reload": 60,
+  "rotateSpeed": 5,
+  "powerUse": 10,  // Высокое потребление энергии
+  "status": "burning",
+  "statusDuration": 60,
+  "color": "FF5E5E",
+  "beamEffect": "Fx.lancerLaser",
   "shootEffect": {
-    "type": "WaveEffect",
-    "sides": 0,
-    "sizeFrom": 5,
-    "sizeTo": 15,
-    "strokeFrom": 2,
-    "strokeTo": 0,
-    "lifetime": 15,
-    "colorFrom": "FF5722",
-    "colorTo": "FF9800"
-  },
-  "updateEffect": {
     "type": "ParticleEffect",
-    "particles": 3,
-    "length": 8,
-    "lifetime": 30,
-    "colorFrom": "FF5722",
-    "colorTo": "FF9800",
-    "sizeFrom": 2,
-    "sizeTo": 0
+    "particles": 10,
+    "lifetime": 40,
+    "colorFrom": "FF5E5E",
+    "colorTo": "FF0000",
+    "sizeFrom": 4,
+    "sizeTo": 1
   },
   "requirements": [
-    {"item": "copper", "amount": 100},
-    {"item": "lead", "amount": 80},
-    {"item": "silicon", "amount": 50}
+    "silicon/50",
+    "plastanium/30",
+    "surge-alloy/20",
+    "phase-fabric/10"
   ],
-  "research": {
-    "parent": "basic-turret",
-    "cost": [
-      {"item": "copper", "amount": 200},
-      {"item": "lead", "amount": 150}
-    ]
-  }
+  "research": "force-projector",
+  "researchCostMultiplier": 1.5
 }
