@@ -41,6 +41,7 @@
             "ammoMultiplier": 2
             "ammoUseEffect": "Fx.casing1",
             "reloadMultiplier": 0.8
+            "color": "B8705C"
             
             "shootEffect": [
                 {
@@ -51,7 +52,7 @@
                     "strokeFrom": 1.5
                     "strokeTo": 0
                     "cone": 30
-                    "livetime": 20
+                    "lifetime": 20
                     "colorFrom": "B8705C"
                     "colorTo": "B8705C"
                 }
@@ -66,7 +67,7 @@
                     "strokeFrom": 1.5
                     "strokeTo": 0
                     "cone": -50
-                    "livetime": 20
+                    "lifetime": 20
                     "colorFrom": "B8705C"
                     "colorTo": "B8705C"
                 }
@@ -78,7 +79,7 @@
                     "particles": 12
                     "sizeFrom": 5
                     "sizeTo": 0
-                    "livetime": 3
+                    "lifetime": 20
                     "cone": 360
                     "colorFrom": "4a4a4a"
                     "colorTo": "4a4a4a"
@@ -94,46 +95,45 @@
             "lifetime": 60,
             "ammoMultiplier": 1
             "ammoUseEffect": "Fx.casing1",
+            "color": "ab99d3"
             
             "shootEffect": [
                 {
-                    "type": "ParticEffect"
-                    "region": "par-line"
-                    "particles": 6
-                    "length": 10
-                    "width": 3
-                    "sizeFrom": 10
-                    "sizeTo": 0
-                    "lifetime": 25
+                    "type:": "ParticleEffect"
+                    "line": true
+                    "lenFrom": 5
+                    "lenTo": 0
+                    "strokeFrom": 1.5
+                    "strokeTo": 0
                     "cone": 30
-                    "colorFrom": "4D4D4D"
-                    "colorTo": "4D4D4D"
+                    "lifetime": 20
+                    "colorFrom": "ab99d3"
+                    "colorTo": "ab99d3"
                 }
             ],
             
             "hitEffect": [
                 {
-                    "type": "ParticEffect"
-                    "region": "par-line"
-                    "particles": 6
-                    "length": 10
-                    "width": 3
-                    "sizeFrom": 10
-                    "sizeTo": 0
-                    "lifetime": 25
-                    "cone": -50
-                    "colorFrom": "4D4D4D"
-                    "colorTo": "4D4D4D"
-                }  
+                    "type:": "ParticleEffect"
+                    "line": true
+                    "lenFrom": 5
+                    "lenTo": 0
+                    "strokeFrom": 1.5
+                    "strokeTo": 0
+                    "cone": 30
+                    "lifetime": 20
+                    "colorFrom": "ab99d3"
+                    "colorTo": "ab99d3"
+                }
             ],
             
             "despawnEffect": [
                 {
                     "type": "ParticleEffect"
                     "particles": 12
-                    "sizeFrom": 2
-                    "sizeTo": 10
-                    "livetime": 40
+                    "sizeFrom": 5
+                    "sizeTo": 0
+                    "lifetime": 20
                     "cone": 360
                     "colorFrom": "4a4a4a"
                     "colorTo": "4a4a4a"
