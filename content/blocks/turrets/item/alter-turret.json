@@ -4,62 +4,71 @@
     "outlinecollor": "5617AD",
     "size": 1,
     "health": 250,
-    "reload": 10,
+    "reload": 40,
     "range": 160,
     "maxAmmo": 20,
     "recoil": 0.5,
     "rotateSpeed": 10,
-    "shootSound": "Sounds.shootDuo",
+    "shootCone": 15
+    "shootY": 2
+    "inaccuracy": 2
+    "shootSound": "shootDuo",
+    "researchCostMultiplier": 0.05,
+    
     "drawer": {
         "type": "drawTurret",
-        "basePrefix": "base-"
+        "parts": [
+            {
+                "type": "RegionPart"
+                "suffix": "-mid"
+                "under": false
+                "mirror": false
+                "moveY": -1.2
+                "progress": "recoil"
+            }
+        ]
     },
-    "researchCostMultiplier": 0.05,
     "ammoTypes": {
         "lead": {
-            "type": "MissileBulletType",
+            "type": "BasicBulletType",
+            "speed": 2.5
+            "damage": 18,
+            "lifetime": 60,
+            "ammoUseEffect": "Fx.casing1",
+            
             "shootEffect": {
                 "type": "ParticleEffect",
                 "particles": 2,
-                "lenght": 40,
+                "lenght": 20,
                 "lifetime": 25,
-                "cone": 10,
+                "cone": 20,
                 "colorFrom": "351c75",
                 "colorTo": "674ea7",
                 "sizeFrom": 3,
-                "sizeTo": 2,
+                "sizeTo": 0.5,
             },
-            "speed": 10,
-            "damage": 18,
-            "collides": true,
-            "lifetime": 38,
-            "shrinkY": 0,
-            "shrinkX": 0,
             "hitEffect": {
                 "type": "ParticleEffect",
                 "particles": 2,
                 "length": 15,
-                "lifetime": 70,
+                "lifetime": 40,
                 "interp": "pow3Out",
                 "sizeInterp": "pow5In",
-                "offset": 30,
+                "offset": 10,
                 "lightColor": "A9D8FFFF",
                 "colorFrom": "A9D8FFFF",
                 "colorTo": "66B1FFFF",
-                "sizeFrom": 2,
+                "sizeFrom": 0.5,
                 "sizeTo": 0
             },
-            "ammoUseEffect": "Fx.casing1",
         },
-
     },
-    "requirements": [
-        "silicon/20",
-        "lead/10",
+    "requirements": [,
+        "lead/30",
         "copper/10"
     ],
     "envRequired": 0,
     "enDisabled": 4,
     "category": "turret",
-    "research": "base-turret"
+    "research": "duo"
 }
