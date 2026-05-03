@@ -45,7 +45,7 @@
             "shootEffect": [
                 {
                     "type": "ParticEffect"
-                    "region": "laser-white"
+                    "region": "par-line"
                     "particles": 6
                     "length": 10
                     "width": 3
@@ -61,7 +61,7 @@
             "hitEffect": [
                 {
                     "type": "ParticEffect"
-                    "region": "laser-white"
+                    "region": "par-line"
                     "particles": 6
                     "length": 10
                     "width": 3
@@ -79,8 +79,8 @@
                     "type": "ParticleEffect"
                     "particles": 12
                     "sizeFrom": 5
-                    "sizeTo": 10
-                    "livetime": 25
+                    "sizeTo": 2
+                    "livetime": 10
                     "cone": 360
                     "colorFrom": "4a4a4a"
                     "colorTo": "4a4a4a"
@@ -100,7 +100,7 @@
             "shootEffect": [
                 {
                     "type": "ParticEffect"
-                    "region": "laser-white"
+                    "region": "par-line"
                     "particles": 6
                     "length": 10
                     "width": 3
@@ -116,7 +116,7 @@
             "hitEffect": [
                 {
                     "type": "ParticEffect"
-                    "region": "laser-white"
+                    "region": "par-line"
                     "particles": 6
                     "length": 10
                     "width": 3
@@ -133,8 +133,8 @@
                 {
                     "type": "ParticleEffect"
                     "particles": 12
-                    "sizeFrom": 10
-                    "sizeTo": 25
+                    "sizeFrom": 2
+                    "sizeTo": 10
                     "livetime": 40
                     "cone": 360
                     "colorFrom": "4a4a4a"
