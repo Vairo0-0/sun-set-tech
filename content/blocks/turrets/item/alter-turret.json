@@ -1,7 +1,6 @@
 {
     "type": "ItemTurret",
     "squareSprite": true,
-    "outlinecollor": "5617AD",
     "size": 1,
     "health": 250,
     "reload": 40,
