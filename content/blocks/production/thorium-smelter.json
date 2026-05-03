@@ -1,43 +1,43 @@
 {
-  "size": 2
-  "hasPower": true
-  "hasItems": true
-  "solid": true
-  "liquidCapacity": 36
-  "itemCapacity": 15
-  "craftTime": 60
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "solid": true,
+  "liquidCapacity": 36,
+  "itemCapacity": 15,
+  "craftTime": 60,
   "consumes":{
-    "power": 4
+    "power": 4,
     "items":[
       "thorium/3"
     ]
   }
-  "outputLiquid": "liquid-thorium/0.1"
+  "outputLiquid": "liquid-thorium/0.1",
   "requirements":[
     "copper/42"
     "lead/26"
     "silicon/30"
     "titanium/56"
-  ]
-  "category": "crafting"
-  "type": "GenericCrafter"
-  "research": "cryofluid-mixer"
+  ],
+  "category": "crafting",
+  "type": "GenericCrafter,
+  "research": "cryofluid-mixer",
   "drawer":{
-    "type": "DrawMulti"
+    "type": "DrawMulti",
     "drawers":[
       {
-        "type": "DrawRegion"
+        "type": "DrawRegion",
         "suffix": "-bottom"
-      }
+      },
       {
-        "type": "DrawLiquidTile"
+        "type": "DrawLiquidTile",
         "drawLiquid": "liquid-thorium"
-      }
+      },
       {
         "type": "DrawDefault"
-      }
+      },
       {
-        "type": "DrawGlowRegion"
+        "type": "DrawGlowRegion",
         "suffix": "-heat"
       }
     ]
