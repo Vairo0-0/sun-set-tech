@@ -1,0 +1,63 @@
+{
+    "type": "ItemTurret",
+    "squareSprite": true,
+    "outlinecollor": "00000",
+    "size": 1,
+    "health": 300,
+    "reload": 35,
+    "range": 25,
+    "maxAmmo": 20,
+    "recoil": 3,
+    "rotateSpeed": 2,
+    "shootSound": "bang",
+    "drawer": {
+        "type": "drawTurret",
+        "basePrefix": "fang-"
+    },
+    "ammoTypes": {
+        "lead": {
+            "type": "MissileBulletType",
+            "shootEffect": {
+                "type": "ParticleEffect",
+                "particles": 2,
+                "lenght": 40,
+                "lifetime": 25,
+                "interp": "pow40ut",
+                "cone": 10,
+                "colorFrom": "351c75",
+                "colorTo": "674ea7",
+                "sizeFrom": 3,
+                "sizeTo": 2,
+            },
+            "speed": 10,
+            "collides": true,
+            "lifetime": 38,
+            "shrinkY": 0,
+            "shrinkX": 0,
+            "hitEffect": {
+                "type": "ParticleEffect",
+                "particles": 5,
+                "length": 45,
+                "lifetime": 70,
+                "interp": "pow3Out",
+                "sizeInterp": "pow5In",
+                "offset": 30,
+                "lightColor": "A9D8FFFF",
+                "colorFrom": "A9D8FFFF",
+                "colorTo": "66B1FFFF",
+                "sizeFrom": 5,
+                "sizeTo": 0
+            },
+        },
+
+    },
+    "requirements": [
+        "silicon/20",
+        "lead/10",
+        "copper/10"
+    ],
+    "envRequired": 0,
+    "enDisabled": 4,
+    "category": "turret",
+    "researc": "base-turret"
+}
