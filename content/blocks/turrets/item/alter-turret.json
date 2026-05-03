@@ -36,31 +36,33 @@
             "ammoMultiplier": 1
             "ammoUseEffect": "Fx.casing1",
             
-            "shootEffect": {
-                "type": "ParticleEffect",
-                "particles": 2,
-                "lenght": 20,
-                "lifetime": 25,
-                "cone": 20,
-                "colorFrom": "351c75",
-                "colorTo": "674ea7",
-                "sizeFrom": 3,
-                "sizeTo": 0.5,
-            },
-            "hitEffect": {
-                "type": "ParticleEffect",
-                "particles": 2,
-                "length": 15,
-                "lifetime": 40,
-                "interp": "pow3Out",
-                "sizeInterp": "pow5In",
-                "offset": 10,
-                "lightColor": "A9D8FFFF",
-                "colorFrom": "A9D8FFFF",
-                "colorTo": "66B1FFFF",
-                "sizeFrom": 0.5,
-                "sizeTo": 0
-            },
+            "shootEffect": [
+                {
+                    "type": "LineEffect"
+                    "particles": 6
+                    "length": 10
+                    "sizeFrom": 10
+                    "sizeTo": 0
+                    "lifetime": 25
+                    "cone": 30
+                    "colorFrom": "4D4D4D"
+                    "colorTo": "4D4D4D"
+                }
+            ],
+            "hitEffect": [
+                {
+                    "type": "LineEffect"
+                    "particles": 6
+                    "length": 10
+                    "sizeFrom": 10
+                    "sizeTo": 0
+                    "lifetime": 25
+                    "cone": -50
+                    "colorFrom": "4D4D4D"
+                    "colorTo": "4D4D4D"
+                }  
+            ],
+            "despawnEffect": "Fx.titanSmoke"
         },
     },
     "requirements": [
