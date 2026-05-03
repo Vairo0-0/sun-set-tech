@@ -44,34 +44,26 @@
             
             "shootEffect": [
                 {
-                    "type": "ParticEffect"
-                    "region": "par-line"
-                    "particles": 6
-                    "length": 10
-                    "width": 3
-                    "sizeFrom": 10
-                    "sizeTo": 0
-                    "lifetime": 25
-                    "cone": 30
-                    "colorFrom": "B8705C"
-                    "colorTo": "B8705C"
+                     "type": "LineEffect",
+                     "length": 20,
+                     "lifetime": 30,
+                     "color": "FF5722",
+                     "width": 2,
+                     "strokeFrom": 3,
+                     "strokeTo": 0
                 }
             ],
             
             "hitEffect": [
                 {
-                    "type": "ParticEffect"
-                    "region": "par-line"
-                    "particles": 6
-                    "length": 10
-                    "width": 3
-                    "sizeFrom": 10
-                    "sizeTo": 0
-                    "lifetime": 25
-                    "cone": -50
-                    "colorFrom": "B8705C"
-                    "colorTo": "B8705C"
-                }  
+                     "type": "LineEffect",
+                     "length": 20,
+                     "lifetime": 30,
+                     "color": "FF5722",
+                     "width": 2,
+                     "strokeFrom": 3,
+                     "strokeTo": 0
+                }
             ],
             
             "despawnEffect": [
@@ -79,8 +71,8 @@
                     "type": "ParticleEffect"
                     "particles": 12
                     "sizeFrom": 5
-                    "sizeTo": 2
-                    "livetime": 10
+                    "sizeTo": 0
+                    "livetime": 6
                     "cone": 360
                     "colorFrom": "4a4a4a"
                     "colorTo": "4a4a4a"
