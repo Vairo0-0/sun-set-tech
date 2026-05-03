@@ -67,7 +67,7 @@
                     "lenTo": 0
                     "strokeFrom": 1.5
                     "strokeTo": 0
-                    "cone": -50
+                    "cone": 440
                     "lifetime": 20
                     "colorFrom": "B8705C"
                     "colorTo": "B8705C"
@@ -121,7 +121,7 @@
                     "lenTo": 0
                     "strokeFrom": 1.5
                     "strokeTo": 0
-                    "cone": 30
+                    "cone": 440
                     "lifetime": 20
                     "colorFrom": "ab99d3"
                     "colorTo": "ab99d3"
