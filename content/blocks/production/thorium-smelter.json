@@ -9,7 +9,7 @@
   "consumes":{
     "power": 4,
     "items":[
-      "copper/3"
+      "thorium/3"
     ]
   }
   "outputLiquid": "liquid-thorium/0.1",
