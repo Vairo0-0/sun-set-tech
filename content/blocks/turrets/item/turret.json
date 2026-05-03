@@ -49,7 +49,7 @@
                 "sizeFrom": 2,
                 "sizeTo": 0
             },
-            "ammoUseEffect":
+            "ammoUseEffect": "Fx.casing1",
         },
 
     },
