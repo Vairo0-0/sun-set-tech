@@ -1,6 +1,5 @@
 {
   "type": "Wall",
-  "buildCostMultiplier": 0.1,
   "health": 440,
   "size": 1,
   "requirements": [
