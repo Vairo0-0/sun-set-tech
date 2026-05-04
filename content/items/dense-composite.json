@@ -1,10 +1,6 @@
 {
-  "type": "item"
+  "type": "Item"
   "cost": 1.2
   "color": "7576a3"
   "particleColors": "7576a3"
-  "flammability": false
-  "explosiveness": false
-  "radioactivity": false
-  "charge": false
 }
