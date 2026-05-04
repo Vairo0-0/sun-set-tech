@@ -1,6 +1,6 @@
 {
   "type": "Wall",
-  "health": 380,
+  "health": 1200,
   "armor": 5,
   "size": 2,
   "requirements": [
@@ -8,5 +8,5 @@
     "copper/16"
   ],
   "category": "defense",
-  "research": "armor-copper-wall"
+  "research": "armored-copper-wall"
 }
