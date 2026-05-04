@@ -96,7 +96,6 @@
             "damage": 18,
             "lifetime": 60,
             "ammoMultiplier": 1
-            "ammoUseEffect": "Fx.casing2",
             "frontColor": "ab99d3"
             "hitColor": "ab99d3"
             "backColor": "ab99d3"
@@ -154,7 +153,6 @@
     ],
     
     "envRequired": 0,
-    "enDisabled": 4,
     "category": "turret",
     "research": "duo"
 }
