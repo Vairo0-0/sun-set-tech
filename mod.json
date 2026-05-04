@@ -1,10 +1,7 @@
 {
   "name": "sunset technology",
   "description": "Может быть хватит в моде пенисов",
-  "author": [
-    "QwerAsdd",
-    "Vairo"
-  ],
+  "author": "QwerAsdd, Vairo"
   "minGameVersion": "157.4"
   "version": 0.1
 }
