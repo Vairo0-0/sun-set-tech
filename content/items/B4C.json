@@ -2,4 +2,8 @@
     "cost": 1.6,
     "explosiveness": 0.05,
     "color": "484F5B"
+    "research": [
+        "bor",
+        "coal"
+    ]
 }
