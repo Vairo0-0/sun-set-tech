@@ -1,7 +1,6 @@
 {
     "cost": 1.6,
     "color": "484F5B"
-    "parent": "bor",
     "explosiveness": 0.1
     "research": [
         "bor",
