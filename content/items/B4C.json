@@ -1,7 +1,6 @@
 {
     "cost": 1.6,
     "color": "484F5B"
-    "particleColors": "484F5B"
     "explosiveness": 0.1
     "research": [
         "bor",
