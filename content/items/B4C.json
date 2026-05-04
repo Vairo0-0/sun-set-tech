@@ -1,8 +1,11 @@
 {
     "cost": 1.6,
-    "explosiveness": 0.05,
     "color": "484F5B"
     "particleColors": "484F5B"
+    "flammability": false
+    "explosiveness": 0.1
+    "radioactivity": false
+    "charge": false
     "research": [
         "bor",
         "coal"
