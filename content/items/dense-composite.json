@@ -1,2 +1,5 @@
 {
-  
+  "type": "Item"
+  "cost": 1.2
+  "toxicity": 0.8
+}
