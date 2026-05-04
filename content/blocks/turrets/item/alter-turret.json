@@ -39,7 +39,6 @@
             "damage": 10,
             "lifetime": 60,
             "ammoMultiplier": 2
-            "ammoUseEffect": "Fx.casing1",
             "reloadMultiplier": 0.8
             "frontColor": "B8705C"
             "hitColor": "B8705C"
@@ -48,7 +47,7 @@
             
             "shootEffect": [
                 {
-                    "type:": "ParticleEffect"
+                    "type": "ParticleEffect"
                     "line": true
                     "lenFrom": 5
                     "lenTo": 0
@@ -63,7 +62,7 @@
             
             "hitEffect": [
                 {
-                    "type:": "ParticleEffect"
+                    "type": "ParticleEffect"
                     "line": true
                     "lenFrom": 5
                     "lenTo": 0
@@ -105,7 +104,7 @@
             
             "shootEffect": [
                 {
-                    "type:": "ParticleEffect"
+                    "type": "ParticleEffect"
                     "line": true
                     "lenFrom": 5
                     "lenTo": 0
@@ -120,7 +119,7 @@
             
             "hitEffect": [
                 {
-                    "type:": "ParticleEffect"
+                    "type": "ParticleEffect"
                     "line": true
                     "lenFrom": 5
                     "lenTo": 0
