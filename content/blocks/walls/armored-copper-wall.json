@@ -1,0 +1,12 @@
+{
+  "type": "Wall",
+  "health": 300,
+  "armor": 5,
+  "size": 1,
+  "requirements": [
+    "dense-composite/2",
+    "copper/4"
+  ],
+  "category": "defense",
+  "research": "copper-wall"
+}
