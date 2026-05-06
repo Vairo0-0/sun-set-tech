@@ -1,1 +1,51 @@
-
+{
+  "size": 2
+  "hasPower": true
+  "hasItems": true
+  "solid": true
+  "itemCapacity": 12
+  "craftTime": 40
+  "ambientSound": "loopSmelter"
+  "ambientSoundVolume": 0.07
+  "craftEffect": "Fx.formsmoke"
+  "updateEffect": [
+    {
+      "type": "WaveEffect"
+      "lifetime": 30
+      "color": "cbccf4"
+      "strokeFrom": 1.5
+      "strokeTo": 0
+      "sizeFrom": 0
+      "sizeTo": 3
+    }
+  ]
+  "consumes":{
+    "power": 1.3
+    "items":[
+      "graphite/1"
+      "lead/2"
+    ]
+  }
+  "outputItem": "dense-composite/1"
+  "requirements":[
+    "copper/70"
+    "lead/35"
+    "graphite/30"
+  ]
+  "category": "crafting"
+  "type": "GenericCrafter"
+  "research": "graphite-press"
+  "drawer":{
+    "type": "DrawMulti"
+    "drawers":[
+      {
+        "type": "DrawDefault"
+      }
+      {
+        "type": "DrawFlameRegion"
+        "suffix": "-top"
+        "color": "cbccf4"
+      }
+    ]
+  }
+}
