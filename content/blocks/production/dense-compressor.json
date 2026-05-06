@@ -7,7 +7,7 @@
   "craftTime": 45
   "ambientSound": "loopSmelter"
   "ambientSoundVolume": 0.07
-  "updateEffect": [
+  "craftEffect": [
     {
       "type": "WaveEffect"
       "particles": 1
