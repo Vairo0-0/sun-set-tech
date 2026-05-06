@@ -92,6 +92,8 @@
         
         "lead": {
             "type": "BasicBulletType",
+            "width": 10
+            "height": 14
             "speed": 2.5
             "damage": 18,
             "lifetime": 60,
