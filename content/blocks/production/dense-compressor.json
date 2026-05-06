@@ -4,10 +4,9 @@
   "hasItems": true
   "solid": true
   "itemCapacity": 12
-  "craftTime": 40
+  "craftTime": 45
   "ambientSound": "loopSmelter"
   "ambientSoundVolume": 0.07
-  "craftEffect": "Fx.formsmoke"
   "updateEffect": [
     {
       "type": "WaveEffect"
@@ -40,6 +39,10 @@
     "drawers":[
       {
         "type": "DrawDefault"
+      }
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-heat"
       }
       {
         "type": "DrawFlameRegion"
