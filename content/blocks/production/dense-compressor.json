@@ -35,6 +35,7 @@
   "category": "crafting"
   "type": "GenericCrafter"
   "research": "graphite-press"
+  "researchCostMultiplier": 0.4,
   "drawer":{
     "type": "DrawMulti"
     "drawers":[
