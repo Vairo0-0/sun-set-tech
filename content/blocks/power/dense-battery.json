@@ -4,9 +4,9 @@
   "size": 2
   "armor": 5
   "consumes": {
-    "power": [
+    "power": {
       "capacity": 24000
-    ]
+    }
   }
   "outputs": {
     "power": {}
