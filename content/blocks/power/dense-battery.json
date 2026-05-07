@@ -1,5 +1,5 @@
 {
-  "type": "Battery"
+  "type": "battery"
   "category": "power"
   "size": 2
   "armor": 5
@@ -12,4 +12,3 @@
     "dense-composite/6",
   ]
 }
-  
