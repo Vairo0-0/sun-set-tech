@@ -1,0 +1,19 @@
+{
+    "type": "ConsumeGenerator",
+    "researchCostMultiplier": 0.3,
+    "displayEfficiency": false,
+    "mineEfficiency": 1.0,
+    "health": 1400,
+    "size": 2,
+    "powerProduction": 1,
+    "drawer": {
+        "type": "Drawdefault"
+    },
+    "requirements": [
+        "silicon/100",
+        "copper/60",
+        "lead/10"
+    ],
+  "category": "power",
+  "research": "combustion-generator"
+}
