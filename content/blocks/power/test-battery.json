@@ -3,9 +3,7 @@
   "type": "Battery",
   "size": 3,
   "health": 500,
-  "capacity": 50000,  // Очень большая ёмкость
-  "input": 100,       // Медленный заряд
-  "output": 100,      // Медленная отдача
+  "powerCapacity": 50000,    
   "requirements": ["lead/100", "silicon/80", "plastanium/50"],
   "research": "battery-large",
   "researchCostMultiplier": 2.0
