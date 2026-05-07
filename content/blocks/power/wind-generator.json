@@ -21,13 +21,11 @@
                 "type": "drawDefault",
             },
             {
-                "type": "DrawGlowRegion",
-                "suffix": "-heat",
-                "color": "ab99d3",
+                "type": "DrawWarmupRegion",
             },
             {
                 "type": "DrawRegion",
-                "suffix": "-rotator",
+                "suffix": "-turbine",
                 "rotateSpeed": 10,
             },
             {
