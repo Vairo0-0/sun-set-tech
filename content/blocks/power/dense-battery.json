@@ -1,0 +1,15 @@
+{
+  "type": "Battery"
+  "category": "power"
+  "size": 2
+  "armor": 5
+  "consumePowerBuffered": 24000
+  "baseExplosiveness": 3
+  "researge": "bettery"
+  "requirements": [
+    "copper/15",
+    "lead/35",
+    "dense-composite/6",
+  ]
+}
+  
