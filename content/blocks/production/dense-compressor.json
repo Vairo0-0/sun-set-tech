@@ -10,7 +10,6 @@
   "craftEffect": [
     {
       "type": "WaveEffect"
-      "particles": 1
       "lifetime": 45
       "colorFrom": "cbccf4"
       "colorTo": "cbccf4"
@@ -48,7 +47,6 @@
       }
       {
         "type": "DrawFlame"
-        "suffix": "-top"
         "flameColor": "cbccf4"
       }
     ]
