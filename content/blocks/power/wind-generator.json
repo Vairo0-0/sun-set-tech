@@ -28,8 +28,7 @@
             {
                 "type": "DrawRegion",
                 "suffix": "-rotator",
-                "rotateSpeed": 8,
-                "alpha": 1,
+                "rotateSpeed": 10,
             },
             {
                 "type": "DrawRegion",
