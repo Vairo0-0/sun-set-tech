@@ -27,7 +27,7 @@
             {
                 "type": "DrawRegion",
                 "suffix": "-turbine",
-                "rotateSpeed": 10,
+                "rotateSpeed": 5,
             },
             {
                 "type": "DrawRegion",
