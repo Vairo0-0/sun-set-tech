@@ -1,19 +1,43 @@
 {
     "type": "ConsumeGenerator",
-    "researchCostMultiplier": 0.3,
-    "displayEfficiency": false,
-    "mineEfficiency": 1.0,
-    "health": 1400,
+    "category": "power",
+    "research": "combustion-generator"
+    "researchCostMultiplier": 0.4,
+    "health": 120,
     "size": 2,
     "powerProduction": 1,
+    "itemDuration": 120,
+    "ambientSound": "loopDifferential",
+    "ambientSoundVolume": 0.1,
+    "consumes": {
+        "items": [
+            "lead-brick/1",
+        ],
+    },
     "drawer": {
-        "type": "Drawdefault"
+        "type": "drawMulti",
+        "drawers": [
+            {
+                "type": "drawDefault",
+            },
+            {
+                "type": "DrawGlowRegion",
+                "suffix": "-heat",
+            },
+            {
+                "type": "DrawWarmupRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": 5,
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-top",
+            },
+        ],
     },
     "requirements": [
-        "silicon/100",
+        "graphite/40",
         "copper/60",
-        "lead/10"
+        "lead/35",
     ],
-  "category": "power",
-  "research": "combustion-generator"
 }
