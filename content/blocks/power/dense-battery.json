@@ -3,7 +3,11 @@
   "category": "power"
   "size": 2
   "armor": 5
-  "consumePowerBuffered": 24000
+  "consume": {
+    "powerBuffered": 24000
+  }
+  "fullLightColor": "fb9567"
+  "emptyLightColor": "f8c266"
   "baseExplosiveness": 3
   "research": "battery"
   "requirements": [
