@@ -1,9 +1,16 @@
 {
-  "type": "battery"
+  "type": "Battery"
   "category": "power"
   "size": 2
   "armor": 5
-  "consumePowerBuffered": 24000
+  "consumes": {
+    "power": [
+      "capacityPower": 24000
+    ]
+  }
+  "outputs": {
+    "power": {}
+  }
   "baseExplosiveness": 3
   "research": "battery"
   "requirements": [
