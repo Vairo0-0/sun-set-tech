@@ -5,7 +5,7 @@
   "craftTime": 0.9,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 0.07,
-  "craftEffect": "Fx.pulverizeMedium",
+  "craftEffect": "Fx.smeltsmoke",
   "updateEffect": "Fx.plasticburn",
   "consumes":{
     "power": 0.4,
