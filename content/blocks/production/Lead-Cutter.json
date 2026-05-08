@@ -1,8 +1,8 @@
 {
   "size": 2,
   "solid": true,
-  "itemCapacity": 12,
-  "craftTime": 0.9,
+  "itemCapacity": 10,
+  "craftTime": 59,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 0.07,
   "craftEffect": [
@@ -15,8 +15,8 @@
        "strokeTo": 0,
        "cone": 360,
        "lifetime": 20,
-       "colorFrom": "B8705C",
-       "colorTo": "B8705C",
+       "colorFrom": "ab99d3",
+       "colorTo": "f3e979",
      },
   ],
   "consumes":{
