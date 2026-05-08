@@ -1,0 +1,25 @@
+{
+  "size": 2,
+  "solid": true,
+  "itemCapacity": 12,
+  "craftTime": 0.9,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 0.07,
+  "craftEffect": "Fx.pulverizeMedium",
+  "updateEffect": "Fx.plasticburn",
+  "consumes":{
+    "power": 0.4,
+    "items":[
+      "lead/1",
+    ],
+  },
+  "outputItem": "lead-brick/1",
+  "requirements":[
+    "copper/30",
+    "lead/35",
+  ],
+  "category": "crafting",
+  "type": "GenericCrafter",
+  "research": "graphite-press",
+  "researchCostMultiplier": 0.6,
+}
