@@ -19,7 +19,6 @@
        "colorTo": "B8705C",
      },
   ],
-  "updateEffect": "Fx.plasticburn",
   "consumes":{
     "power": 0.4,
     "items":[
